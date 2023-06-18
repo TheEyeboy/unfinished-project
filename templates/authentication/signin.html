@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'signin.css' %}">
+
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Rubik:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+
+
+
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="form-container">
+                <div class="signin-signup">
+
+        <form action="/signup" method="post" class="sign-in-form">
+           {% csrf_token %}
+           <h2 class="title">Sign In</h2>
+            <div class="input-field">
+            <label for="" class="id"><i class="fa-solid fa-user"></i></label>
+            <input type="text" id="username" name="username" placeholder="Username" required>
+            <br>
+            </div>
+
+            
+
+            <div class="input-field">
+            <label for=""class="id"><i class="fa-solid fa-lock"></i></label>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+            <br>
+            </div>
+
+
+            <button type="submit" value="signin" class="btn solid">Login</button>
+            <p class="social-text">Or Sign In with social Platform</p>
+            <div class="social-media">
+                <a href="#" class="social-icon">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="social-icon">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="#" class="social-icon">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="social-icon">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+
+        </form>
+        </div>
+        </div>
+        </div>
+        <div class="panels-container">
+            <div class="panel right-plate">
+                <div class="content">
+                 <h3>One of Us</h3>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Asperiores numquam soluta quo veritatis voluptatibus, quis quidem officiis dignissimos sunt dolorem.</p>
+                 <button class="btn transparent" id="sign-in-btn">Sign Up</button>
+                </div>
+                {%load static%}
+                <img src="{% static 'images/loginpic2.svg'%}" class="image">
+             </div>
+         </div>
+        </div>
+    </div>
+        <script src="" async defer></script>
+    </body>
+</html>

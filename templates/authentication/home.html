@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silver</title>
+    {% load static %}
+    <link rel="shortcut icon" href="{% static 'images/logo.png' %}" type="image/x-icon">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'home.css' %}">
+    <!---Custom Icon --->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.3.0/remixicon.css"/>
+</head>
+<body>
+    
+    <section class="header">
+        <div class="container">
+            {% load static %}
+            <img src="{% static 'images/logo.png' %}" class="logo"><a href="index.html" class="comp-logo">ilver</a>
+            <div class="header-text">
+
+                <h2>
+                    Silver Code: Crafting Excellence <br>in Programming for Seamless Solutions!
+                    <br>
+
+                </h2>
+                <span class="square"></span>
+                <h4>Unlock Your Coding Potential with Silver Code! <br></h4>
+                <p>
+
+At Silver Code, we believe that coding is not just a skill but <br> a gateway to endless possibilities. 
+We are dedicated to empowering individuals with the<br>
+ knowledge and expertise to excel in the world of programming. 
+ Whether you're a beginner taking<br> your first steps or an experienced coder 
+ looking to <br> enhance your skills, Silver Code is here to guide you 
+on your coding journey. <br> <br> <br>
+
+Our comprehensive curriculum covers a wide range of programming <br> languages and concepts, 
+ensuring that you receive a well-rounded education <br> in the world of coding. From the fundamentals 
+of HTML, CSS, and JavaScript <br>to advanced topics such as data structures, algorithms, <br>a
+nd object-oriented programming, we've got you covered.
+                </p>
+                <button href="index.html" class="commo-btn">Read More</button>
+                <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+                </div>
+            </div>
+            <div class="image-content">
+                {% load static %}
+                <img src="{% static 'images/home0 (2).png' %}">
+            </div>
+        </div>
+
+    </section>
+
+    <nav id="sideNav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="/landing__page">Landing Page</a></li>
+            <li><a href="#">Sign In</a></li>
+            <li><a href="#">Log In</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </nav>
+    <button id="menu-btn"><i class="ri-menu-3-fill"></i></button>
+
+    <!----About ---->
+    <section class="about">
+
+        <div class="about-left-col">
+            {% load static %}
+                <img src="{% static 'images/abouyt.png' %}">
+            <h4 class="item">Don't let coding barriers hold you back. Join our coding website today and 
+                unlock a world of possibilities. 
+                Start coding, start creating, and start building your future in tech!"</h4>
+                <h5 class="item">--------Daniel Rebecca--</h5>
+        </div>
+        <div class="about-right-col">
+            <div class="about-text">
+                <h1>About Us</h1>
+                <span class="square"></span>
+                <p>Welcome to our website! We are a team of dedicated individuals passionate about providing high-quality services to our clients. With years of experience and expertise, we strive to deliver exceptional results and exceed expectations. Our commitment to 
+                    excellence drives us to constantly innovate and improve, ensuring that we meet the 
+                    unique needs of each and every client. From conceptualization to execution, our talented 
+                    team works collaboratively to create customized solutions that propel businesses forward. 
+                    We understand the ever-evolving landscape of technology and stay up-to-date with the latest
+                     trends, allowing us to offer cutting-edge solutions to our clients. Whether you need 
+                     web development, mobile app creation, digital marketing, or IT consulting, 
+                     we have the skills and knowledge to deliver outstanding outcomes. 
+                     We take pride in our professionalism, attention to detail, and client-centric approach.
+                      Your success is our priority, and we are dedicated to providing you with exceptional 
+                      service that helps you achieve your goals. Contact us today to learn more about
+                       how we can assist you in reaching new heights for your business.</p><br><br>
+                       <div class="line">
+                        <span class="line-1"></span><br>
+                        <span class="line-2"></span><br>
+                        <span class="line-3"></span>
+                        <br>
+                    </div>
+                       <h3>As the tech industry continues to evolve, staying up-to-date with the latest programming
+                         languages and frameworks is crucial. Our coding website keeps pace with the ever-changing 
+                         landscape of technology, regularly updating our course offerings to include the most 
+                         sought-after skills. You'll have access to the latest tools and techniques, 
+                         ensuring that you remain at 
+                        the forefront of innovation and equipped to tackle exciting coding projects.</h3>
+                        <h4>------Joseph Parkinson</h4>
+            </div>
+        </div>
+        
+
+    </section>
+
+
+    <!---features--->
+    <section id="features">
+        <h1 class="Feature-head"> Features </h1>
+        <div class="feature-role">
+            <div class="feature-col">
+                {% load static %}
+                <img src="{% static '/images/pic0 (3).png'%}" class="feature-img" >
+                <h4>Learn Anywhere</h4>
+                <p>Switch between your computer, tablets and mobile devices</p>
+            </div>
+            <div class="feature-col">
+                {% load static %}
+                <img src="{% static '/images/pic0 (2).png'%}" class="feature-img" >
+                <h4>Unlimited access</h4>
+                <p>Choose what you'd like to learn from our extensive subscription library</p>
+            </div>
+            <div class="feature-col">
+                {% load static %}
+                <img src="{%static '/images/pic0 (1).png' %}" class="feature-img">
+                <h4>Expert Teachers</h4>
+                <p>Learn from expert in industry who are passionate about teaching</p>
+            </div>
+        </div>
+        <div class="feature-btn">
+            <div class="line">
+                <span class="line-1"></span><br>
+                <span class="line-2"></span><br>
+                <span class="line-3"></span>
+            </div>
+            <button class="commo-btn">Start Free Trial</button>
+        </div>
+    </section>
+
+
+    <!---Courses-->
+
+    <section id="courses">
+        <div class="container course-row">
+            <div class="course-left-col">
+                <div class="course-text">
+                    <h1>Browse Our Top <br> Courses</h1>
+                    <span class="square"></span>
+                    <p>Contrary to popular belief Lorem ipsum is  not simply a random 
+                        text. It has a root in a pieces of classical latin literature from 
+                        45 BC , making it over 2000 years old. Richard McClinton, a Latin Professor 
+                        at Hampen
+                    </p>
+                    <button class="commo-btn">View all Courses</button>
+                    <div class="line">
+                        <span class="line-1"></span><br>
+                        <span class="line-2"></span><br>
+                        <span class="line-3"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="course-right-col">
+                <img src="{% static '/images/course-pic2.png'%}">
+            </div>
+        </div>
+    </section>
+
+    <!---Offer--->
+
+    <section class="offer">
+
+        <div class="about-left-col">
+            {% load static %}
+                <img src="{% static 'images/offer-pic.png' %}">
+            <h4 class="item">Don't let coding barriers hold you back. Join our coding website today and 
+                unlock a world of possibilities. 
+                Start coding, start creating, and start building your future in tech!"</h4>
+                <h5 class="item">--------Daniel Rebecca--</h5>
+        </div>
+        <div class="about-right-col">
+            <div class="about-text">
+                <h1>Limitless Learning, <br> Limitless Possibilities</h1>
+                <span class="square"></span>
+                <p>Welcome to our website! We are a team of dedicated individuals passionate about providing high-quality services to our clients. With years of experience and expertise, we strive to deliver exceptional results and exceed expectations. Our commitment to 
+                    excellence drives us to constantly innovate and improve, ensuring that we meet the 
+                    unique needs of each and every client. From conceptualization to execution, our talented 
+                    team works collaboratively to create customized solutions that propel businesses forward. 
+                   </p>
+                   <button class="commo-btn">Start Free Trial</button>
+                       <div class="line">
+                        <span class="line-1"></span><br>
+                        <span class="line-2"></span><br>
+                        <span class="line-3"></span>
+                        <br>
+                    </div>
+                       <h3>As the tech industry continues to evolve, staying up-to-date with the latest programming
+                         languages and frameworks is crucial. Our coding website keeps pace with the ever-changing 
+                         landscape of technology, regularly updating our course offerings to include the most 
+                         sought-after skills. You'll have access to the latest tools and techniques, 
+                         ensuring that you remain at 
+                        the forefront of innovation and equipped to tackle exciting coding projects.</h3>
+                        <h4>------Joseph Parkinson</h4>
+            </div>
+        </div>
+        
+
+    </section>
+
+    <!-----------Sign In Form---------->
+
+    <section class="contact">
+        <div class="container contact-row">
+            <div class="contact-left-col">
+                <h1>Sign Up to Join our <br> Learning Community</h1>
+                <form action="">
+                    <input type="text" placeholder="Enter name">
+                    <input type="email" placeholder=" Enter Email">
+                    <input type="password" placeholder="Password">
+                    <div class="btn-box">
+                        <button class="commo-btn">Sign Up</button>
+                        <button class="commo-btn">Start Free Trial</button>
+                    </div>
+                </form>
+                <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+                    <br>
+                </div>
+            </div>
+            <div class="contact-right-col">
+                <img src="{% static  '/images/contact-img (2).png' %}" alt="">
+            </div>
+        </div>
+    </section>
+
+   
+        
+    {% load static %}
+  <script src="{% static 'js/home.js' %}"></script>  
+</body>
+</html>
